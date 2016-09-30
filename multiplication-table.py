@@ -26,3 +26,8 @@ height = input("Height of multiplication table:")
 width = (int(width))
 height = (int(height))
 table = (len(str(height*width)))+1
+numval = ""
+for a in range(1, height + 1)
+numval = ""
+for b in range(1, width + 1)
+a*b=c
