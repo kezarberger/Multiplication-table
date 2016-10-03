@@ -20,14 +20,16 @@ Height of multiplication table: 8
   6  12  18  24  30  36  42  48  54  60
   7  14  21  28  35  42  49  56  63  70
   8  16  24  32  40  48  56  64  72  80
-"""
-width = input("Width of multiplication table:")
-height = input("Height of multiplication table:")
-width = (int(width))
-height = (int(height))
-table = (len(str(height*width)))+1
-numval = ""
-for a in range(1, height + 1)
-numval = ""
-for b in range(1, width + 1)
-a*b=c
+""" 
+width = input("Width of multiplication table: ")
+height = input("Height of multiplication table: ")
+width = int(width)
+height = int(height)
+table = len(str(height*width))+1
+numval = " "
+for a in range(1, height + 1):
+    numval = ""
+    for b in range(1, width + 1):
+        c=a*b
+        numval = numval + str(c).rjust(table, ' ') 
+    print (numval)
